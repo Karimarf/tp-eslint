@@ -27,5 +27,9 @@ Apres le remplacement des console.log en print, on observe que les erreurs on di
 ![img_1.png](img_1.png)
 
 ## 6
-je crée une branche avec la commande git checkout -b feature/ajout-fonction afin de conserver mes derniers commit
+- je crée une branche avec la commande git checkout -b feature/ajout-fonction afin de conserver mes derniers commit
 
+- Apres avoir crée la branch , je crée un file app.js avec des erreurs , evidament le commit passe pas.
+
+- je commit apres les modifications et pourtant dans les github action ça bloque 
+![img_2.png](img_2.png)
