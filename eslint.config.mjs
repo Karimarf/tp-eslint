@@ -35,5 +35,16 @@ export default [
         ...globals.node
       }
     }
+  },{
+    "extends": "airbnb-base",
+    "rules": {
+      "no-console": "warn",
+      "indent": ["error", 2],
+      "quotes": ["error", "single"]
+    },
+    "env": {
+      "browser": true,
+      "node": true
+    }
   }
 ];
